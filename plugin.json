@@ -1,0 +1,30 @@
+{
+  "id": "qwenpaw-guard",
+  "name": "AI 守护者",
+  "version": "0.0.1",
+  "description": "会话监督看护工具：列出所有 agent 与活动会话；会话结束或敏感操作需要权限时，通过钩子自动向飞书话题群推送通知，可从飞书审批（允许/拒绝）或发送命令；支持每个守护会话在专属主题帖下分别回复，并可将话题回复转投到被守护会话的 console 渠道。",
+  "author": "archigram",
+  "license": "Apache-2.0",
+  "type": "app",
+  "qwenpaw_version": {
+    "min": "2.0.0",
+    "max": "2.1.0"
+  },
+  "entry": {
+    "backend": "plugin.py",
+    "frontend": "ui/index.js"
+  },
+  "permissions": [
+    "workspace.read"
+  ],
+  "meta": {
+    "category": "agent-tools",
+    "icon": "🛡️",
+    "pawapp": {
+      "icon": "🛡️",
+      "category": "agent-tools",
+      "entry_page": "/apps/qwenpaw-guard",
+      "launch_scope": "page"
+    }
+  }
+}
