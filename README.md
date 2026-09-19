@@ -1,4 +1,4 @@
-# qwenpaw-guard · AI 守护者
+# qwenpaw-guard · AI 守护者 v0.0.1
 
 监督看护工具（QwenPaw 插件）。把「监督者」换成你的**飞书话题群会话**——
 你在飞书里远程审批敏感操作、接收守护通知，并可在各个守护话题下分别回复续任务。
@@ -218,6 +218,10 @@ agent 调用敏感工具
 - 飞书侧需能收到话题群内回复：要 **@机器人**，或给应用 `cli_aa050fee55381bc2` 开通「获取群组中所有消息」权限并发布版本；否则话题群内未 @ 消息不会被投递。
 - 日志与配置写于 `plugin_data/qwenpaw-guard/`。
 
-![qwenpaw-guard-img](./qwenpaw-guard-img.png)
+![qwenpaw-guard-img](https://raw.githubusercontent.com/chcsyf/qwenpaw-guard/main/qwenpaw-guard-img.png)
 
-![qwenpaw-guard-feishu](./qwenpaw-guard-feishu.jpg)
+![qwenpaw-guard-feishu](https://raw.githubusercontent.com/chcsyf/qwenpaw-guard/main/qwenpaw-guard-feishu.jpg)
+
+## 变更记录
+
+见 [CHANGELOG.md](https://github.com/chcsyf/qwenpaw-guard/blob/main/CHANGELOG.md)。
